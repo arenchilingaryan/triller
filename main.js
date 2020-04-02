@@ -1,43 +1,29 @@
+const fetchURL = 'https://v.triller.co/RNr66r'
+
 const bomb = () => {
-    fetch('https://v.triller.co/RNr66r');
-    // fetch('https://v.triller.co/WNrnQx');
-    // fetch('https://v.triller.co/AGNr5x');
-    // fetch('https://v.triller.co/PryOVD');
-    // fetch('https://v.triller.co/PryOVD');
-    // fetch('https://v.triller.co/6574lv');
-    // fetch('https://v.triller.co/XNkv1Y');
-    // fetch('https://v.triller.co/LrYnjQ');
-    // fetch('https://v.triller.co/MqJ613');
-    // fetch('https://v.triller.co/jEke27');
-    // fetch('https://v.triller.co/07Gn9W');
-    // fetch('https://v.triller.co/pqMVQE');
-    // fetch('https://v.triller.co/YNGxg8');
-    // fetch('https://v.triller.co/773d3j');
-    // fetch('https://v.triller.co/ZNGzyQ');
-    // fetch('https://v.triller.co/Ok7edK');
-    // fetch('https://v.triller.co/XN22Oa');
-    // fetch('https://v.triller.co/27pk5z');
-    // fetch('https://v.triller.co/VNLpQ8');
-    // fetch('https://v.triller.co/yAQKqy');
-    // fetch('https://v.triller.co/YNelpV');
-    // fetch('https://v.triller.co/nA8Oea');
-    // fetch('https://v.triller.co/39p0Zv');
-    // fetch('https://v.triller.co/WN3r4x');
-    // fetch('https://v.triller.co/jEyl5p');
-    // fetch('https://v.triller.co/yA2yxQ');
-    // fetch('https://v.triller.co/1V7d1M');
-    // fetch('https://v.triller.co/JrRkjq');
-    // fetch('https://v.triller.co/QNnmrz');
-    // fetch('https://v.triller.co/27kDWz');
-    // fetch('https://v.triller.co/39xWe4');
-    // fetch('https://v.triller.co/alj0ea');
-    // fetch('https://v.triller.co/AGEDKW');
-    // fetch('https://v.triller.co/l6lpL1');
-    // fetch('https://v.triller.co/KvE04e');
-    // fetch('https://v.triller.co/YNZRdV');
-    // fetch('https://v.triller.co/394LV6');
-    // fetch('https://v.triller.co/27N4g1');
-    bomb();bomb();bomb();bomb();bomb();
+    fetch(fetchURL)
 }
 
-bomb();
+let govno = setInterval(() => {
+    bomb(); bomb(); bomb(); bomb(); bomb(); bomb(); bomb(); bomb(); bomb(); bomb();
+    bomb(); bomb(); bomb(); bomb(); bomb(); bomb(); bomb(); bomb(); bomb(); bomb();
+    bomb(); bomb(); bomb(); bomb(); bomb(); bomb(); bomb(); bomb(); bomb(); bomb();
+    bomb(); bomb(); bomb(); bomb(); bomb(); bomb(); bomb(); bomb(); bomb(); bomb();
+    bomb(); bomb(); bomb(); bomb();
+    console.info('___________________________________________')
+}, 1100);
+
+setInterval(() => {
+    clearInterval(govno)
+
+    setTimeout(() => {
+        console.log('CHILL TIME - CHILL TIME - CHILL TIME - CHILL TIME - CHILL TIME - ')
+        govno = setInterval(() => {
+            bomb(); bomb(); bomb(); bomb(); bomb(); bomb(); bomb(); bomb(); bomb(); bomb();
+            bomb(); bomb(); bomb(); bomb(); bomb(); bomb(); bomb(); bomb(); bomb(); bomb();
+            bomb(); bomb(); bomb(); bomb(); bomb(); bomb(); bomb(); bomb(); bomb(); bomb();
+            bomb(); bomb(); bomb(); bomb(); bomb(); bomb(); bomb(); bomb(); bomb(); bomb();
+            bomb(); bomb(); bomb(); bomb();
+        }, 1100);
+    }, 4000)
+}, 22000);
